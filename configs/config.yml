@@ -1,0 +1,21 @@
+mlflow:
+  tracking-server: 'dagshub'
+  dagshub:
+    - repo-owner: 'K14aNB'
+    - experiment-name: 'Delivery-Duration-Prediction'
+  
+
+notebooks:
+  Delivery-Duration-Prediction-EDA:
+    data:
+      - source: 'no-download'
+      - data-src-path: ''
+
+    outputs:
+      - nb-html-preview: 'true'
+      - py-percent-script: 'true'
+      - output-path: 'Notebooks'
+
+
+  
+  
